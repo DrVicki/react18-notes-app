@@ -18,7 +18,7 @@ After it is installed, we will run:
 cd notes
 npm start
 ```
-After this, we open our newly created react app on our favorite code editor,
+After this, we open our newly created react app on our favorite code editor.
 
 ## Creating the Page
 
@@ -51,7 +51,7 @@ export default function App() {
 
 And now we have this displayed on our page:
 
-First version of the page
+![](https://github.com/DrVicki/react18-notes-app/blob/main/notes-images/notes1.png)
 
 ## Creating the Notes Component
 
@@ -59,7 +59,9 @@ We will create a `Notes` component that will display any available notes. The co
 
 After that, we will create a file called `Notes.js` inside the `components` folder and create a simple function that loops through available data served in the props, creating different p elements.
 
-Component file structure
+**Component file structure**
+
+![](https://github.com/DrVicki/react18-notes-app/blob/main/notes-images/notes2.png)
 
 Inside the `Notes.js` file, we have:
 
@@ -118,6 +120,8 @@ export default function App() {
 And now, we should be able to save some notes with our app.
 
 The app, working
+
+![](https://github.com/DrVicki/react18-notes-app/blob/main/notes-images/notes4.gif)
 
 ## Registering our Service Worker
 
